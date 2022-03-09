@@ -1,2 +1,2 @@
 # 1CCO-PI
-Grupo faculdade 
+Projeto de pesquisa e inovação
