@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.header {
+    border-bottom: 3px solid aqua;
+}
+
+.header ul .destaque {
+    font-weight: bolder ;
+}
+
+.header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    color: yellow;
+}
+
+.titulo {
+    color: aqua;
+    width: fit-content;
+}
+
+.navBar {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
