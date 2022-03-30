@@ -8,24 +8,24 @@ body {
     border-bottom: 3px solid aqua;
 }
 
-.header ul .destaque {
+.header .navBar .destaque {
     font-weight: bolder ;
 }
 
-.header .container {
+.container{
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
 }
 
-ul {
-    color: yellow;
+.header .container {
+    justify-content: space-between;
 }
 
 .titulo {
     color: aqua;
     width: fit-content;
+    font-weight: 600;
 }
 
 .navBar {
@@ -36,4 +36,122 @@ ul {
     width: 300px;
     padding: 0;
     align-items: center;
+    font-size: 16px;
+}
+
+/* fim do cabeçalho */
+
+/* começo do banner */
+
+.banner{
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: #ffffff;
+    display: flex ;
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container p {
+    font-weight: 100    ;
+}
+
+.banner .container{
+    font-size: 25px;
+    justify-content: center;
+}
+
+.banner .container p{
+    font-size: 25px;
+    justify-content: center;
+    width: 20%;
+}
+
+/* fim do banner */
+
+/* Começo do social */
+
+.social {
+    background-color: beige;
+    display: flex;
+} 
+
+.social .container .boxes .box img{
+    width: 135px;
+}
+
+.social .container .boxes {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;             
+    align-items: center;
+    margin: 50px;
+}
+/* 
+.social .contaniner .boxes .box p{
+    width: ;
+} */
+
+/* fim do social */
+
+/* começo do footer */
+
+.footer {
+    background-color: #32b9cd;
+    height: 100px;
+    color: #ffffff;
+    display: flex;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+/* LOGIN */
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner .container .card {
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.card h1{
+    font-size: 30px;
+}
+
+.card h4{
+    font-size: 15px;
+}
+
+.card input {
+    border: palevioletred solid 1px;
+    padding: 10px;
+}
+
+.card button {
+    background-color: palevioletred;
+    height: 30px;
+    width: 100px;
+    margin-top: 25px;
+    font: 700 20px monospace;
+    color: white;
+    border: 0;
+    border-radius: 10px;   
+    cursor: pointer;
 }
