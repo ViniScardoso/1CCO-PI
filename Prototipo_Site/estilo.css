@@ -165,7 +165,7 @@ a{
 .card button {
     background-color: palevioletred;
     height: 30px;
-    width: 100px;
+    width: fit-content;
     margin-top: 25px;
     font: 700 20px monospace;
     color: white;
