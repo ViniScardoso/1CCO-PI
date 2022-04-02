@@ -45,6 +45,7 @@ body {
 
 .banner{
     background-image: url("imgs/bg-jelly-fish-para-home.png");
+    background-repeat: no-repeat;
     height: 500px;
     color: #ffffff;
     display: flex ;
@@ -112,6 +113,22 @@ body {
     justify-content: center;
 }
 
+.footerFixo {
+    background-color: #32b9cd;
+    height: 100px;
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerFixo .container {
+    justify-content: center;
+}
+
+/* A classe footerFixo foi desenvolvida para que os dois footers ficassem no fim pois quando o da home dava certo o do login dava errado e vice versa */
+
 /* LOGIN */
 
 a{
@@ -120,14 +137,15 @@ a{
 }
 
 .banner .container .card {
+    margin-top: 40px;
     background-color: beige;
-    height: 400px;
     width: 400px;
     display: flex;
     flex-direction: column;
     color: palevioletred;
     align-items: center;
     border-radius: 4px;
+    padding-bottom: 20px;
 }
 
 
@@ -155,3 +173,33 @@ a{
     border-radius: 10px;   
     cursor: pointer;
 }
+
+/* Fim login */
+
+/* Cadastro */
+
+.bannerCadastro {
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    background-repeat: round;
+    height: 700px;
+    color: #ffffff;
+    display: flex ;
+}
+
+.bannerCadastro .container{
+    font-size: 25px;
+    justify-content: center;
+}
+
+.bannerCadastro .container .card {
+    background-color: beige;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+
